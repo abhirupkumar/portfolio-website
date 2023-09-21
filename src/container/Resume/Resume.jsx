@@ -16,7 +16,7 @@ const Resume = () => {
                 let t = window.URL.createObjectURL(e)
                 let s = document.createElement("a");
                 s.href = t
-                s.download = "Abhirup's Resume.pdf"
+                s.download = "Abhirup_Resume.pdf"
                 s.click()
             })
         })
